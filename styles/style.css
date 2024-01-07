@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&family=Open+Sans:wght@400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0  auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.banner_text{
+    width: 86.32%;
+    max-width: 197px;
+}
+.banner_text h1{
+    width: 708px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+}
+.banner .banner_text *{
+    margin-bottom: 32px;
+}
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+}
+.banner_text p{
+    width: 634px;
+}
+button{
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 20px 43px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background: #3d1820;
+    /* background: linear-gradient(45deg, rgb(95, 25, 25) 0%, rgb(62, 21, 87) 100%); */
+}
+.banner .banner_img img{
+    width: 100%;
+    vertical-align: middle;
+}
